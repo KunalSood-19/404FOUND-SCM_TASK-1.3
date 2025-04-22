@@ -186,4 +186,29 @@ header {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
+
+
+  .i1{
+    height:300px;
+    width:225px;
+    
+  }
+  .i1 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
   
+  
+  /* Hover effect for product images */
+  .i1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  .t8 {
+    background-color: white;
+    width: 1360px;
+  }
+    

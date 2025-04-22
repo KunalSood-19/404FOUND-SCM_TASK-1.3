@@ -85,3 +85,16 @@ header {
   
   .p3{font-weight:bolder;}
   
+  .p1 {
+    padding-top: 40px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  .t5 {
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  

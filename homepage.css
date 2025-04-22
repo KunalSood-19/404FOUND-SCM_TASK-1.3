@@ -1,0 +1,17 @@
+eader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(158, 184, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(6, 166, 206);
+    font-weight: bolder;
+  
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }

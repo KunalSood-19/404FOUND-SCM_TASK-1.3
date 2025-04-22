@@ -28,56 +28,75 @@
     </style>
     
     <h2 style="text-align: center;">Create a Profile</h2>
-    <form onsubmit="return f1()">
-        <table>
-            <!-- Form rows go here -->
-        </table>
-    </form>
-    <tr>
+   <form onsubmit="return f1()">
+    <table>
+        
+        
+     <tr>
         <td colspan="2" style="text-align: center;">
             <img src="prof.jpg" alt="Avatar" style="width: 100px; height: 100px;">
         </td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Name</td>
         <td><input type="text" name="first_name" placeholder="First name" id="n1"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Surname</td>
         <td><input type="text" name="surname" placeholder="Surname"></td>
-    </tr>
-    <tr>
-        <td>Mobile Number</td>
+     </tr>
+     <tr>
+         <td>Mobile Number</td>
         <td><input type="number" name="mobile_number" placeholder="Enter phone number" id="n2"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Password:</td>
         <td><input type="password" name="password" placeholder="enter password" id="n3"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Confirm Password:</td>
         <td><input type="password" name="confirm_password" placeholder="confirm-password" id="n4"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Address</td>
         <td><input type="text" name="address_line_2" placeholder="Enter address"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>State</td>
         <td><input type="text" name="state" placeholder="Enter state"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Area</td>
         <td><input type="text" name="area" placeholder="Enter area"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>Email ID</td>
         <td><input type="email" name="email_id" placeholder="Enter email ID"></td>
-    </tr>
-    <tr>
+     </tr>
+     <tr>
         <td>State/Region</td>
         <td><input type="text" name="state_region" placeholder="Enter state/region"></td>
-    </tr>
-    
+     </tr>
+    </table>
+  </form>
+  <style>
+    table {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        border-collapse: collapse;
+        background-color: #76b5c5;
+        border-radius: 20px;
+    }
+    td {
+        padding: 10px;
+    }
+    input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+</style>
+
 </body>
 </html>

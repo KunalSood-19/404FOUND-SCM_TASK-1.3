@@ -137,3 +137,29 @@ header {
     margin-bottom:30px;
   }
   
+  .h2 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
+  
+  
+  /* Hover effect for product images */
+  .h2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hp2{height:150px; width:150px;
+    margin-top:20px;}
+    
+    
+    .p4{
+      font-weight: bolder;
+      font-size:30px;
+    }
+    
+    
+    
+    .hp2 {
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    

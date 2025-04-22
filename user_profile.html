@@ -96,6 +96,19 @@
         padding: 8px;
         box-sizing: border-box;
     }
+    document.addEventListener('DOMContentLoaded', function () {
+        var saveButton = document.getElementById('save-button');
+        if (saveButton) {
+            saveButton.addEventListener('click', function () {
+                var result = confirm('Do you want to save changes?');
+                if (result) {
+                    alert('Changes saved!');
+                } else {
+                    alert('Save canceled.');
+                }
+            });
+        }
+    });
 </style>
 
 </body>

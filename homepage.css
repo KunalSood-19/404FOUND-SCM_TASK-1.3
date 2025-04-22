@@ -1,0 +1,214 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(158, 184, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(6, 166, 206);
+    font-weight: bolder;
+  
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a img {
+    width: 24px;
+    height: 24px;
+  }
+  .t2 {
+    height: 70px;
+  }
+  
+  .t3 {
+    height: 550px;
+    width: 1460px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid rgb(4, 0, 54);
+    border-radius: 20px;
+  }
+  
+  .t4 {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  .hp {
+    border: 3px black solid;
+    border-radius: 100px;
+    height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+.hp:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .h {
+    height: 380px;
+    width: 380px;
+    padding: 20px;
+  }
+  
+  
+  .p3{font-weight:bolder;}
+  
+  .p1 {
+    padding-top: 40px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  .t5 {
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  .h {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .h:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .t5 {
+    background-color: white;
+    /* Change background color */
+    border: 2px solid black;
+    /* Add a border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Add a shadow */
+  }
+  
+  .h1{
+    height:300px;
+    width:225px;
+  }
+  
+  .h1 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
+  .h1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .h2{
+    height:360px;
+    width:360px;
+    border: 2px black solid;
+    margin-bottom:30px;
+  }
+  
+  .h2 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
+  
+  
+  /* Hover effect for product images */
+  .h2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hp2{height:150px; width:150px;
+    margin-top:20px;}
+    
+    
+    .p4{
+      font-weight: bolder;
+      font-size:30px;
+    }
+    
+    
+    
+    .hp2 {
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    
+    .hp2:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .hp3{height:220px; width:235px;
+      border:3px black solid;}
+      
+      .d10{ width: 1400px; }
+  
+  .p9{font-weight: bolder; padding-bottom:20px; font-size:40px; }
+  
+  
+  .hp3 {
+    transition: transform 0.7s ease, box-shadow 0.7s ease;
+  }
+  
+  
+  /* Hover effect for product images */
+  .hp3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .i1{
+    height:300px;
+    width:225px;
+    
+  }
+  .i1 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
+  
+  
+  /* Hover effect for product images */
+  .i1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  .t8 {
+    background-color: white;
+    width: 1360px;
+  }
+    

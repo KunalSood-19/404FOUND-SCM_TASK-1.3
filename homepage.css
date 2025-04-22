@@ -120,3 +120,20 @@ header {
     height:300px;
     width:225px;
   }
+  
+  .h1 {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+  }
+  .h1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .h2{
+    height:360px;
+    width:360px;
+    border: 2px black solid;
+    margin-bottom:30px;
+  }
+  

@@ -8,7 +8,14 @@
 
 </head>
 <body>
-    <style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Form</title>
+    
+     <style>
         table {
             width: 100%;
             max-width: 600px;
@@ -20,13 +27,21 @@
         td {
             padding: 10px;
         }
-        input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+        input[type="text"], input[type="email"], 
+        input[type="number"], input[type="password"], textarea {
             width: 100%;
             padding: 8px;
             box-sizing: border-box;
+        } .save-button {
+            text-align: center;
         }
-    </style>
-    
+        .save-button input {
+            padding: 10px 20px;
+        }
+
+      </style>
+    </head>
+  <body>
     <h2 style="text-align: center;">Create a Profile</h2>
    <form onsubmit="return f1()">
     <table>
@@ -79,23 +94,7 @@
      </tr>
     </table>
   </form>
-  <style>
-    table {
-        width: 100%;
-        max-width: 600px;
-        margin: auto;
-        border-collapse: collapse;
-        background-color: #76b5c5;
-        border-radius: 20px;
-    }
-    td {
-        padding: 10px;
-    }
-    input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
-        width: 100%;
-        padding: 8px;
-        box-sizing: border-box;
-    }
+    <script>
     document.addEventListener('DOMContentLoaded', function () {
         var saveButton = document.getElementById('save-button');
         if (saveButton) {
@@ -108,8 +107,12 @@
                 }
             });
         }
-    });
-</style>
+     });
+    </script>
 
+
+  </body>
+
+  </html>
 </body>
 </html>

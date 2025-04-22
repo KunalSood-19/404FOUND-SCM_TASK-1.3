@@ -98,3 +98,25 @@ header {
   }
   
   
+  .h {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .h:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .t5 {
+    background-color: white;
+    /* Change background color */
+    border: 2px solid black;
+    /* Add a border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Add a shadow */
+  }
+  
+  .h1{
+    height:300px;
+    width:225px;
+  }

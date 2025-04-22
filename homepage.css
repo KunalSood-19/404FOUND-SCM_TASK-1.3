@@ -163,3 +163,27 @@ header {
       transition: transform 0.5s ease, box-shadow 0.5s ease;
     }
     
+    .hp2:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .hp3{height:220px; width:235px;
+      border:3px black solid;}
+      
+      .d10{ width: 1400px; }
+  
+  .p9{font-weight: bolder; padding-bottom:20px; font-size:40px; }
+  
+  
+  .hp3 {
+    transition: transform 0.7s ease, box-shadow 0.7s ease;
+  }
+  
+  
+  /* Hover effect for product images */
+  .hp3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  

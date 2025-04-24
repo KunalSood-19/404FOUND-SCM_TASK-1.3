@@ -12,4 +12,13 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
         camera: +getValue("cameraA"),
         battery: +getValue("batteryA"),
       };
+      const productB = {
+        name: getValue("nameB"),
+        image: getValue("imageB"),
+        price: +getValue("priceB"),
+        ram: +getValue("ramB"),
+        storage: +getValue("storageB"),
+        camera: +getValue("cameraB"),
+        battery: +getValue("batteryB"),
+      };
   

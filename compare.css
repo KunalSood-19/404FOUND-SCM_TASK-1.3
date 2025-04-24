@@ -22,3 +22,16 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
         battery: +getValue("batteryB"),
       };
       feat: render productA details in comparison table
+      <div class="product product-b">
+        <h2>${productB.name}</h2>
+        <img src="${productB.image}" alt="${productB.name}">
+        <ul>
+          <li><strong>Price:</strong> ₹${productB.price}</li>
+          <li><strong>RAM:</strong> ${productB.ram}GB</li>
+          <li><strong>Storage:</strong> ${productB.storage}GB</li>
+          <li><strong>Camera:</strong> ${productB.camera}MP</li>
+          <li><strong>Battery:</strong> ${productB.battery}mAh</li>
+        </ul>
+      </div>
+    `;
+  });

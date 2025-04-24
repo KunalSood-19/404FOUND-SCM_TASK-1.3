@@ -35,3 +35,13 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
       </div>
     `;
   });
+  function highlightWinner() {
+    const productA = document.querySelector('.product-a ul').children;
+    const productB = document.querySelector('.product-b ul').children;
+  
+    // Reset all styles first
+    for (let i = 0; i < productA.length; i++) {
+      productA[i].style.backgroundColor = 'rgba(0,0,0,0.3)';
+      productB[i].style.backgroundColor = 'rgba(0,0,0,0.3)';
+    }
+  

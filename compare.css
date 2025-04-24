@@ -21,4 +21,4 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
         camera: +getValue("cameraB"),
         battery: +getValue("batteryB"),
       };
-  
+      feat: render productA details in comparison table

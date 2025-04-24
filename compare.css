@@ -3,3 +3,13 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
   
     const getValue = id => document.getElementById(id).value;
   
+    const productA = {
+        name: getValue("nameA"),
+        image: getValue("imageA"),
+        price: +getValue("priceA"),
+        ram: +getValue("ramA"),
+        storage: +getValue("storageA"),
+        camera: +getValue("cameraA"),
+        battery: +getValue("batteryA"),
+      };
+  

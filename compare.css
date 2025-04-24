@@ -45,3 +45,14 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
       productB[i].style.backgroundColor = 'rgba(0,0,0,0.3)';
     }
   
+    // Compare values and highlight the better one
+    for (let i = 0; i < productA.length; i++) {
+      const valA = parseInt(productA[i].textContent.replace(/[^0-9]/g, ''));
+      const valB = parseInt(productB[i].textContent.replace(/[^0-9]/g, ''));
+  
+      if (!isNaN(valA) && !isNaN(valB)) {
+        if (valA > valB) {
+          productA[i].style.backgroundColor = '#14ff85'; // green for better
+        } else if (valB > valA) {
+          productB[i].style.backgroundColor = '#14ff85';
+        } else {

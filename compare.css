@@ -56,3 +56,10 @@ document.getElementById("productForm").addEventListener("submit", function(e) {
         } else if (valB > valA) {
           productB[i].style.backgroundColor = '#14ff85';
         } else {
+            // Equal values – highlight both
+            productA[i].style.backgroundColor = '#e4d00a'; // yellow
+            productB[i].style.backgroundColor = '#e4d00a';
+          }
+        }
+      }
+    }

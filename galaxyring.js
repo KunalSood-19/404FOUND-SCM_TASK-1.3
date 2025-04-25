@@ -31,3 +31,15 @@ moreInfoButton.addEventListener('click', () => {
   // Toggle the hidden class to show or hide the features section
   featuresSection.classList.toggle('hidden');
 
+ // Change the button text based on visibility of the features section
+ if (featuresSection.classList.contains('hidden')) {
+    moreInfoButton.textContent = 'See More Features';
+  } else {
+    moreInfoButton.textContent = 'See Less Features';
+  }
+
+  // If the section is being revealed, scroll smoothly to it
+  if (!featuresSection.classList.contains('hidden')) {
+    featuresSection.scrollIntoView({ behavior: 'smooth' });
+  }
+});

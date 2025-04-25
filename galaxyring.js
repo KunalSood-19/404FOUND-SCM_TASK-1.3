@@ -43,3 +43,15 @@ moreInfoButton.addEventListener('click', () => {
     featuresSection.scrollIntoView({ behavior: 'smooth' });
   }
 });
+#features {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease;
+  }
+  
+  #features.visible {
+    opacity: 1; /* Visible */
+  }

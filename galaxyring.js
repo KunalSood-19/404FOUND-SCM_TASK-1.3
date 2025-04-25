@@ -15,3 +15,8 @@ moreInfoButton.addEventListener('click', () => {
   // Toggle the hidden class to show or hide the features section
   featuresSection.classList.toggle('hidden');
 
+// If the section is being revealed, scroll smoothly to it
+if (!featuresSection.classList.contains('hidden')) {
+    featuresSection.scrollIntoView({ behavior: 'smooth' });
+  }
+});

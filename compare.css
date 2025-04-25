@@ -85,4 +85,14 @@ body {
     width: 100%;
   }
   
+  .product ul {
+    list-style: none;
+    padding: 0;
+  }
   
+  .product li {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }

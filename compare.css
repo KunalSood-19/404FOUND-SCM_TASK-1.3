@@ -59,4 +59,15 @@ body {
     cursor: pointer;
     transition: background 0.3s;
   }
+  button:hover {
+    background-color: #00c9b7;
+  }
+  
+  .comparison-table {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
   

@@ -70,4 +70,19 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
   }
+  .product {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 15px #00ffc3;
+  }
+  
+  .product img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
   

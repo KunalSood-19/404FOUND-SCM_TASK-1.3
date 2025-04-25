@@ -39,4 +39,24 @@ body {
     text-align: center;
     color: #fff;
   }
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #eee;
+  }
+  
+  button[type="submit"], .compare-btn-container button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ffd5;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
   

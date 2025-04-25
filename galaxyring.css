@@ -79,3 +79,20 @@
     padding-left: 0;
   }
   
+  #features li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #1d1d1d;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  /* Hidden class for elements */
+  .hidden {
+    display: none;
+  }

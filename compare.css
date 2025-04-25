@@ -15,4 +15,9 @@ body {
     color: #00ffd5;
   }
   
+  .form-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
   

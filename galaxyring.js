@@ -20,3 +20,14 @@ if (!featuresSection.classList.contains('hidden')) {
     featuresSection.scrollIntoView({ behavior: 'smooth' });
   }
 });
+// script.js
+
+// Get the button and the features section
+const moreInfoButton = document.getElementById('more-info-btn');
+const featuresSection = document.getElementById('features');
+
+// Add an event listener to the button
+moreInfoButton.addEventListener('click', () => {
+  // Toggle the hidden class to show or hide the features section
+  featuresSection.classList.toggle('hidden');
+

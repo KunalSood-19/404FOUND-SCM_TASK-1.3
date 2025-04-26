@@ -212,3 +212,43 @@ header {
     width: 1360px;
   }
     
+
+  /* Ensure the images in the grid are responsive */
+.hp {
+  width: 100%;
+  height: auto;
+  max-width: 150px;  /* Optional: Adjust based on your image size preference */
+}
+
+/* Text styling for the product titles */
+.p3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Make sure all columns stay in one row */
+.row {
+  display: flex;
+  flex-wrap: wrap;  /* Allow wrapping to a new row if needed */
+  justify-content: space-around;  /* Align columns with space between */
+}
+
+/* Ensure columns behave responsively */
+.col {
+  flex: 1 1 16%;  /* Ensures the columns will take equal space */
+  margin: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex: 1 1 45%;  /* On smaller screens, two items per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .col {
+    flex: 1 1 100%;  /* On very small screens, one item per row */
+  }
+}
